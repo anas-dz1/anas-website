@@ -12,7 +12,7 @@
         }
         body {
             font-family: 'Segoe UI', Tahoma, sans-serif;
-background: linear-gradient(135deg, #2b1055, #7597de);
+            background: linear-gradient(135deg, #2b1055, #7597de);
             color: #ffffff;
             display: flex;
             justify-content: center;
@@ -85,7 +85,9 @@ background: linear-gradient(135deg, #2b1055, #7597de);
             gap: 12px;
         }
         .link-btn {
-            display: block;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
             padding: 12px;
             background: #334155;
             color: #ffffff;
@@ -97,6 +99,11 @@ background: linear-gradient(135deg, #2b1055, #7597de);
         .link-btn:hover {
             background: #3b82f6;
             transform: translateY(-2px);
+        }
+        .discord-icon {
+            width: 20px;
+            height: auto;
+            margin-right: 8px;
         }
     </style>
 </head>
@@ -115,17 +122,18 @@ background: linear-gradient(135deg, #2b1055, #7597de);
         <!--  المعلومات عني -->
         <div class="info-list">
             <div class="info-item">📍 <b>البلد:</b> الجزائر</div>
-<div class="info-item">📍 <b>المنطقة:</b> ولاية الجلفة</div>
+            <div class="info-item">📍 <b>المنطقة:</b> ولاية الجلفة</div>
             <div class="info-item">🚀 <b>المهارات:</b> HTML</div>
-</div>
+        </div>
 
         <!-- رابط حسابي ديسكورد للتواصل -->
-<div class="links">
-    <a href="https://discord.com/users/1492524296453488801" target="_blank" class="link-btn">
-        <span>ديسكوردي للتواصل</span>
-        <img src="https://i.ibb.co/Z1BKCZbX/discord-icon.png" alt="شعار ديسكورد" class="discord-icon">
-    </a>
-</div>    </div>
+        <div class="links">
+            <a href="https://discord.com/users/1492524296453488801" target="_blank" class="link-btn">
+                <span>ديسكوردي للتواصل</span>
+                <img src="https://i.ibb.co/Z1BKCZbX/discord-icon.png" alt="شعار ديسكورد" class="discord-icon">
+            </a>
+        </div>
+    </div>
 
 </body>
 </html>
