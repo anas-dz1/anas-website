@@ -122,11 +122,15 @@
             background: #3b82f6;
             transform: translateY(-2px);
         }
-        .social-icon {
-            width: 30px; /* تحكم في العرض هنا */
-            height: auto;
-            object-fit: contain;
-        }
+    .social-icon {
+    width: 30px; /* فيسبوك يبقى بحجمه العادي */
+    height: auto;
+    object-fit: contain;
+}
+
+.discord-icon {
+    width: 42px; /* كبرنا ديسكورد وحدو باش يولي قد فيسبوك بالعين المجردة */
+}
     </style>
 </head>
 <body>
@@ -143,9 +147,9 @@
             <div class="info-item">🚀 <b>المهارات:</b> HTML</div>
         </div>
 
-        <div class="links">
+      <div class="links">
             <a href="https://discord.com/users/1492524296453488801" target="_blank" class="link-btn">
-                <img src="photos/discord-icon.png" alt="ديسكورد" class="social-icon">
+                <img src="photos/discord-icon.png" alt="ديسكورد" class="social-icon discord-icon">
                 <span>ديسكوردي للتواصل</span>
             </a>
 
@@ -154,7 +158,3 @@
                 <span>فيسبوكي للتواصل</span>
             </a>
         </div>
-    </div>
-
-</body>
-</html>
